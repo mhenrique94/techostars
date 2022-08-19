@@ -162,6 +162,30 @@ textarea {
 
 /* Basic */
 
+
+/* Adicionado pelo Marcelo Silva*/
+.avatar{
+  width: 70px;
+  height: 70px;
+  float: right;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.stars_bar {
+  height: 15px;
+  display: flex;
+  margin: 0 10px 0 0;
+  justify-content: end;
+  float: right;
+}
+
+
+
+
+/* Fim adição Marcelo */
+
+
 @-ms-viewport {
   width: device-width;
 }
@@ -291,7 +315,7 @@ a.special:not(.button) {
   font-size: 0.8em;
   font-weight: 700;
   letter-spacing: 0.1em;
-  margin: 0 0 2em 0;
+  margin: 0 0 .5em 0;
   text-transform: uppercase;
 }
 
